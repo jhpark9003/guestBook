@@ -1,0 +1,39 @@
+@charset "EUC-KR";
+
+body {
+	text-align: center;
+}
+#mainBox {
+	margin: 0 auto;
+	border: 2px solid gray;
+	width: 80%;
+}
+table {
+	margin: 0 auto;
+}
+#listTable {
+	width: 80%;
+	border: 1px solid gray;
+	border-collapse: collapse;
+}
+#listTable td, #listTable th {
+	border: 1px solid gray;
+}
+#header {
+	background-color: #EEEEEE;
+}
+#num {
+	width: 10%;
+}
+#comment {
+	width: 50%;
+}
+#writer {
+	width: 20%;
+}
+#top, #bottom {
+	margin: 1em;
+}
+input[type="text"] {
+	width: 20em;
+}

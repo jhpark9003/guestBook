@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%@ page import="java.util.*" %>
+<%@ page import="com.lgcns.Article" %>
+<%
+	Vector<Article> list = (Vector<Article>)application.getAttribute("articleList");
+	if(list == null) {
+		list = new Vector<Article>();
+		application.setAttribute("articleList", list);
+	}
+%>
